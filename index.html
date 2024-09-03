@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>	*{
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.container-fluid .row-a .nav-items .menu{
+		width: 30px;
+		height: 30px;
+	}
+	.container-fluid .row-a .nav-items .search{
+		width: 50px;
+		height: 50px;
+	}
+	.container-fluid .row-a .nav-items .logo{
+		width: 200px;
+		height: 35px;
+	}
+	.container-fluid .row-a .nav-items .cart{
+		width: 25px;
+		height: 25px;
+	}
+	.row-a{
+		background-color: whitesmoke;
+		border-radius: 5px;
+		border: 1px solid black;
+		
+	}
+	.container-fluid .row-a .nav-items{
+	
+		display: flex;
+		flex-direction: row;
+		justify-content:center ;
+		align-items: center;
+		gap: 5px;
+		
+		
+	}
+	.row-b {
+		background-color: black;
+		height: 80px;
+		border: 1px solid black;
+		border-radius: 8px;
+	}
+	.row-b .row-items {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 80px;
+		justify-content: space-evenly;
+	}
+	.row-b .row-items >img{
+		width: 40px;
+		height: 40px;
+	}
+</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row-a">
+			<div class="nav-items">
+				<img class="menu" src="./images/menubart.png" alt="">
+				<img class="search" src="./images/search.png" alt="">
+				<img class="logo" src="./images/logo with font png.png" alt="" sizes="" srcset="">
+				<img class="cart" src="./images/pngwing.com (18).png" alt="">
+			</div>
+		</div>
+		<div class="row-b">
+			<div class="row-items">
+				<img src="./images/shirt png.png" alt="">
+				<img src="./images/Tshirt-png.png" alt="">
+				<img src="./images/pant-png.png" alt="">
+				<img src="./images/Air Jordan mid 1.png" alt="">
+				<img src="./images/watch-png.png" alt="">
+				<img src="./images/Sunglasses free icons designed by Freepik.png" alt="">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
